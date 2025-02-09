@@ -585,7 +585,7 @@ var form = $('.contact__form'),
 
 // Show More Button for gallery *
 $(document).ready(function () {
-    var isEnglish = window.location.pathname.includes("index-en.html");
+    var isEnglish = window.location.pathname.includes("en");
 
     var showMoreText = isEnglish ? 'Show More <i class="ti-arrow-right"></i>' : 'Daha fazla göster <i class="ti-arrow-right"></i>';
     var showLessText = isEnglish ? 'Show Less <i class="ti-arrow-left"></i>' : 'Daha az göster <i class="ti-arrow-left"></i>';
