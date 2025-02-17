@@ -51,7 +51,7 @@ $(function () {
             logo = $(".navbar .logo> img");
         if (bodyScroll > 100) {
             navbar.addClass("nav-scroll");
-            logo.attr('src', 'img/log.webp');
+            logo.attr('src', 'img/logo.webp');
         } else {
             navbar.removeClass("nav-scroll");
             logo.attr('src', 'img/logo.webp');
