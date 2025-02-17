@@ -887,7 +887,7 @@ blockquote cite:before {
 }
 .navbar .navbar-toggler-icon,
 .navbar .icon-bar {
-  color: #2095ae;
+  color: #000000;
 }
 .navbar .navbar-nav .nav-link {
   font-family: "Barlow Condensed", sans-serif;
@@ -933,7 +933,7 @@ blockquote cite:before {
 }
 .nav-scroll .navbar-toggler-icon,
 .nav-scroll .icon-bar {
-  color: #2095ae;
+  color: #000000;
 }
 .nav-scroll .navbar-nav .nav-link {
   color: #0f2454;
@@ -946,7 +946,7 @@ blockquote cite:before {
   color: #fff;
 }
 .nav-scroll .logo-img {
-  width: 120px;
+  width: 94px;
 }
 .nav-scroll .logo-img {
   margin-bottom: 0px;
@@ -1134,7 +1134,7 @@ blockquote cite:before {
     background-color: transparent;
   }
   .nav-scroll .logo-img {
-    width: 120px;
+    width: 94px;
   }
   .navbar .logo {
     text-align: left;
