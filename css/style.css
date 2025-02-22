@@ -1115,7 +1115,7 @@ blockquote cite:before {
 }
 @media screen and (max-width: 991px) {
   .navbar {
-    padding-left: 0px;
+    padding-left: 10px;
     padding-right: 0px;
     background: #ffffff;
     padding-top: 0px;
@@ -1126,9 +1126,14 @@ blockquote cite:before {
     background: #fff;
   }
   .logo-wrapper {
-    float: left;
-    padding: 0;
+    flex: 1;
+    text-align: center;
   }
+  .logo-wrapper .logo img {
+    max-width: 120px; /* Logo boyutunu ayarlayabilirsin */
+    height: auto;
+  }
+
   .nav-scroll .logo-wrapper {
     padding: 0;
     background-color: transparent;
@@ -1148,7 +1153,7 @@ blockquote cite:before {
     padding: 0;
   }
   .navbar button {
-    margin-right: 0px;
+    margin-right: 10px;
     outline: none !important;
     background: transparent;
     margin-top: 10px;
@@ -1166,8 +1171,22 @@ blockquote cite:before {
   }
   .navbar .container {
     max-width: 100%;
-    padding: 0;
+    padding: 0px 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
   }
+  .navbar-toggler {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 15px;
+}
   .navbar .nav-link {
     margin: 0px auto !important;
   }
@@ -4628,8 +4647,8 @@ select {
 }
 @media screen and (max-width: 767px) {
   .header .caption h1 {
-    font-size: 46px;
-    margin-bottom: 15px;
+    font-size: 38px;
+    margin-bottom: 40px;
     letter-spacing: 10px;
     line-height: 1em;
   }
